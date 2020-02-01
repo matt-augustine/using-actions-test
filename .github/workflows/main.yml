@@ -1,4 +1,4 @@
-name: typescript-action test
+name: test action workflow
 
 on: [push]
 
@@ -8,6 +8,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - uses: matt-augustine/actions-hello-world-javascript-action@master
+      with:
+        who-to-greet: 'Developer Dan'
     - uses: matt-augustine/typescript-action@master
       with:
         milliseconds: 1000
