@@ -1,4 +1,4 @@
 # using-actions-test
-Test repo for using actions
+Test repo for using actions.
 
 Using actions from cloned sample repos.
